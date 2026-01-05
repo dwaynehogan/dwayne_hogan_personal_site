@@ -1,5 +1,35 @@
+// Load header and footer includes
+async function loadIncludes() {
+  // Load header
+  const headerElement = document.getElementById('header-placeholder');
+  if (headerElement) {
+    try {
+      const response = await fetch('/includes/header.html');
+      const html = await response.text();
+      headerElement.innerHTML = html;
+    } catch (error) {
+      console.error('Error loading header:', error);
+    }
+  }
+
+  // Load footer
+  const footerElement = document.getElementById('footer-placeholder');
+  if (footerElement) {
+    try {
+      const response = await fetch('/includes/footer.html');
+      const html = await response.text();
+      footerElement.innerHTML = html;
+    } catch (error) {
+      console.error('Error loading footer:', error);
+    }
+  }
+}
+
 // Set current year in footer
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+  // Load header and footer first
+  await loadIncludes();
+
   const yearElement = document.getElementById('year');
   if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
