@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 /* Reset and Base Styles */
 * {
@@ -9,19 +9,19 @@
 }
 
 :root {
-  /* Warm, contemplative palette - sincere, unhurried, human */
-  --color-bg: #100f0d;
-  --color-text: #d5d1c8;
-  --color-text-light: #9a958a;
-  --color-border: #262420;
-  --color-accent: #a67c52;
-  --color-accent-hover: #c4a078;
-  --color-bg-secondary: #171614;
-  --color-bg-tertiary: #1d1b18;
+  /* Industrial minimal palette - grounded, solid, builder */
+  --color-bg: #141414;
+  --color-text: #e5e5e5;
+  --color-text-light: #888888;
+  --color-border: #2a2a2a;
+  --color-accent: #c9874f;
+  --color-accent-hover: #daa06d;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-tertiary: #222222;
   --max-width: 720px;
 
   /* Typography */
-  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-heading: 'Courier New', Courier, monospace;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -53,7 +53,7 @@ nav {
 }
 
 .nav-brand {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.375rem;
   font-weight: 500;
   color: var(--color-text);
@@ -128,7 +128,7 @@ main {
 }
 
 .hero h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -137,7 +137,7 @@ main {
 }
 
 .hero .tagline {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 400;
   font-style: italic;
@@ -157,7 +157,7 @@ section {
 }
 
 section h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.875rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
@@ -205,7 +205,7 @@ section h2 {
 
 .article-item h3,
 .project-item h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.375rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -271,7 +271,7 @@ a:hover {
 }
 
 .status-badge {
-  background: rgba(166, 124, 82, 0.2);
+  background: rgba(201, 135, 79, 0.15);
   color: var(--color-accent-hover);
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
@@ -280,7 +280,7 @@ a:hover {
 }
 
 .project-card h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0.75rem;
@@ -325,7 +325,7 @@ a:hover {
 .subscribe-form input:focus {
   outline: none;
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(166, 124, 82, 0.15);
+  box-shadow: 0 0 0 3px rgba(201, 135, 79, 0.15);
 }
 
 .subscribe-form button {
@@ -360,7 +360,7 @@ article header {
 }
 
 article h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.75rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -374,7 +374,7 @@ article h1 {
 }
 
 .prose h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.75rem;
   font-weight: 500;
   margin-top: 3.5rem;
@@ -383,7 +383,7 @@ article h1 {
 }
 
 .prose h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.375rem;
   font-weight: 500;
   margin-top: 2.5rem;
@@ -433,7 +433,7 @@ article h1 {
 }
 
 .about-content h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.75rem;
   font-weight: 500;
   margin-bottom: 2.5rem;
@@ -441,7 +441,7 @@ article h1 {
 }
 
 .about-content h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 3.5rem;
@@ -449,7 +449,7 @@ article h1 {
 }
 
 .about-content h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 500;
   margin-top: 2rem;
@@ -498,7 +498,7 @@ article h1 {
 }
 
 .btn-secondary:hover {
-  background: rgba(166, 124, 82, 0.1);
+  background: rgba(201, 135, 79, 0.1);
 }
 
 /* Now Page */
@@ -507,7 +507,7 @@ article h1 {
 }
 
 .now-header h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.75rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -841,7 +841,7 @@ a.note {
 }
 
 .ideas-hero h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.75rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -849,7 +849,7 @@ a.note {
 }
 
 .ideas-hero .subtitle {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   font-style: italic;
   color: var(--color-text-light);
@@ -878,7 +878,7 @@ a.note {
 }
 
 .idea-card h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0.75rem;
@@ -904,7 +904,7 @@ a.note {
 }
 
 .microsite-hero h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.75rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -913,7 +913,7 @@ a.note {
 }
 
 .microsite-hero .tagline {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   font-style: italic;
   color: var(--color-text-light);
@@ -1118,7 +1118,7 @@ a.note {
 }
 
 .book-content h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.25rem;
   font-weight: 500;
   margin: 0;
@@ -1181,7 +1181,7 @@ a.note {
 }
 
 .book-intro h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 2.75rem;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -1189,7 +1189,7 @@ a.note {
 }
 
 .book-intro .subtitle {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   font-style: italic;
   color: var(--color-text-light);
