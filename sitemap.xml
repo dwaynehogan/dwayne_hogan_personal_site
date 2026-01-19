@@ -5,59 +5,43 @@
   <url>
     <loc>https://dwaynehogan.com/</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/about/</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/projects/</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/work/</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- Search Demand Generation -->
   <url>
     <loc>https://dwaynehogan.com/projects/search-demand-generation/</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <!-- Search Demand Generation PDFs -->
   <url>
     <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/Search%20Demand%20Generation_%20A%20Strategic%20Framework%20for%20Building%20Competition-Free%20Zones.pdf</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/projects/search-demand-generation/tools/search-query-design-canvas.pdf</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/projects/search-demand-generation/tools/demand-jacking-canvas.pdf</loc>
     <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
 </urlset>
