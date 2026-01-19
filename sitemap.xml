@@ -4,145 +4,38 @@
   <!-- Main Pages -->
   <url>
     <loc>https://dwaynehogan.com/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/about/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/projects/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dwaynehogan.com/work/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Search Demand Generation Microsite -->
+  <!-- Search Demand Generation -->
   <url>
     <loc>https://dwaynehogan.com/projects/search-demand-generation/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
-
-  <!-- Minibook -->
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/executive-summary</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/the-traffic-paradox</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/the-competition-trap</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/from-scarcity-to-abundance</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/the-solution</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/search-query-design</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/demand-jacking</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/the-canvas</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/the-flywheel</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/success-metrics</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/common-objections</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/minibook/the-choice</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Tools -->
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/tools/search-query-design-canvas</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dwaynehogan.com/projects/search-demand-generation/tools/demand-jacking-canvas</loc>
-    <lastmod>2026-01-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
 </urlset>
